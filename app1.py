@@ -12,6 +12,7 @@ from datetime import datetime, timedelta
 from sklearn.preprocessing import MinMaxScaler
 import numpy as np
 import matplotlib.pyplot as plt
+import tensorflow.keras as keras
 
 # Load the KMeans model from the pickle file
 filename = 'LSTM_model_f.pkl'
